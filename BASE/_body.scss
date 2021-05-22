@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+.Container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+$letra-global: "Padauk", sans-serif;
+.h1 {
+  font-size: 20px;
+  font-family: $letra-global;
+  margin: 0;
+  letter-spacing: 7px;
+}
+.h2 {
+  font-size: 45px;
+  font-family: $letra-global;
+  margin: 0;
+  letter-spacing: 7px;
+}
+.p {
+  font-size: 18px;
+  margin: 0;
+  font-family: $letra-global;
+}
+.li {
+  font-size: 15px;
+  font-family: $letra-global;
+}
+.button {
+  width: 120px;
+  height: 30px;
+  border: 1px solid blue;
+  font-family: $letra-global;
+  background-color: cadetblue;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: blue;
+}
+.h3 {
+  font-family: $letra-global;
+  color: #bac6ca;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.h4 {
+  font-family: $letra-global;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.h5 {
+  font-family: $letra-global;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+.a {
+  font-family: $letra-global;
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: blue;
+  text-decoration: none;
+}
+.center {
+  text-align: center;
+}

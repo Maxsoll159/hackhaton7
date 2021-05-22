@@ -1,0 +1,56 @@
+@import "./mixins";
+.Container2 {
+  background-color: #ffff;
+}
+.Article2 {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 300px;
+}
+.Article2-h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+.Article2-h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+.Article2-Info {
+  width: 300px;
+  text-align: center;
+}
+.Article2-Importante {
+  display: flex;
+  justify-content: space-between;
+}
+.Article2-h5 {
+  margin-top: 20px;
+}
+.Article2-logo {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.Article2-p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.Article2-a {
+  margin-top: 20px;
+  display: block;
+}
+@include mq(600px) {
+  .Article2 {
+    max-width: 900px;
+    margin: 0 auto;
+    height: 650px;
+  }
+  .Article2-Importante {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+}

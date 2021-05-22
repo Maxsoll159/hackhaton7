@@ -1,0 +1,32 @@
+.Conainer6 {
+  background-color: #0661be;
+}
+.Article6 {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100px;
+}
+.Article6-h2 {
+  color: white;
+  font-size: 30px;
+  font-family: $letra-global;
+  margin-top: 20px;
+  letter-spacing: 7px;
+}
+.Article6-p {
+  color: white;
+  font-size: 10px;
+  font-family: $letra-global;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.Article6-div {
+  display: flex;
+  justify-content: space-between;
+}
+.Article6-modifed {
+  background-color: #0661be;
+  color: white;
+  margin-top: 20px;
+  border: 1px solid white;
+}

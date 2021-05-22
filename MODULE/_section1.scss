@@ -1,0 +1,64 @@
+@import "../MODULE/mixins";
+.Container1 {
+  background-color: cadetblue;
+}
+.Container1-article1 {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 600px;
+}
+.header {
+  width: 900px;
+}
+.header-logo {
+  height: 30px;
+  width: 50px;
+  background-color: black;
+  margin-top: -3px;
+  margin-left: 10px;
+}
+.Nav {
+  display: flex;
+}
+.Nav-List {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-left: 300px;
+  margin-top: -15px;
+}
+.Presentacion {
+  width: 500px;
+  margin-left: 10px;
+  margin-top: 120px;
+}
+.Presentacion-h2 {
+  width: 400px;
+}
+.Presentacion-button {
+  margin-top: 20px;
+}
+@include mq(600px) {
+  .header-logo {
+    margin: 0 auto;
+    width: 0px;
+  }
+  .Nav-List {
+    margin-left: -10px;
+  }
+  .Presentacion-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .Presentacion-h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+  }
+}
